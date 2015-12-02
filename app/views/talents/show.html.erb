@@ -3,7 +3,7 @@
 <p>
   <strong>Name:</strong>
   <%= @talent.name %>
-  <strong>Students with this talent:</strong>
+  <strong><br/>Students with this talent:</strong>
   <%= @talent.students.map {|x| x.to_label}.join ', ' %>
 </p>
 
